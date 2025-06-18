@@ -2,36 +2,48 @@
 
 A modern and intuitive task manager built with **Next.js**, **MongoDB Atlas**, and **Tailwind CSS**. This web app allows users to register, log in, and manage their personal or work-related tasks with deadlines and priority levels.
 
+<p align="left">
+  <img src="https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=next.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vercel-000?style=for-the-badge&logo=vercel&logoColor=white" />
+  <img src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=jsonwebtokens&logoColor=white" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
+</p>
 ---
 
 ## 📚 Table of Contents
 
-- [🛠️ Tech Stack](#tech-stack)
-- [📦 Installation](#installation)
-- [📁 Folder Structure](#folder-structure)
-- [🔐 Features](#features)
-- [🌐 Deployment](#deployment)
-- [📬 Contact](#contact)
+- [🛠️ Tech Stack](#️-tech-stack)
+- [🚀 Installation](#-installation)
+- [📁 Folder Structure](#-folder-structure)
+- [🔐 Features](#-features)
+- [🌐 Deployment](#-deployment)
+- [📬 Contact](#-contact)
 
 ---
+
 ## 🛠️ Tech Stack
 
-| Layer     | Technology          |
-|-----------|---------------------|
-| Frontend  | Next.js             |
-| Backend   | Next.js             |
-| Styling   | Tailwind CSS        |
-| Database  | MongoDB Atlas       |
-| Auth      | JWT                 |
-| State     | React Hooks         |
-| ApiTesting| Postman             |
-| Hosting   | Vercel              |
+| Layer       | Technology           |
+|-------------|----------------------|
+| Frontend    | Next.js              |
+| Backend     | Next.js              |
+| Styling     | Tailwind CSS         |
+| Database    | MongoDB Atlas        |
+| Auth        | JWT                  |
+| State       | React Hooks          |
+| API Testing | Postman              |
+| Hosting     | Vercel               |
+
 ---
+
 ## 🚀 Installation
 
 Follow these steps to get the project running locally:
 
 ### 1️⃣ Clone the Repository
+
 ```bash
 git clone https://github.com/Suraj-kumar-pattnayak/Work_Manager_final.git
 cd Work_Manager_final
