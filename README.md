@@ -56,6 +56,7 @@ open http://localhost:3000 in your browser.
 ---
 ## 📁 Folder Structure
 
+```bash
 src/
 └── app/
     ├── signup/       # User registration
@@ -63,16 +64,17 @@ src/
     ├── addTask/      # Add new tasks
     ├── showTask/     # Display all tasks
     ├── editTask/     # Edit existing tasks
-    └── page.js       # Homepage
+    └── page.js       # Homepage (task dashboard)
+```
 ---
 ## 🔐 Features
 
-### 🔑 Secure user authentication (JWT)
-### 📝 Add/edit/delete tasks
-### 🚦 Assign priority levels (e.g. High, Medium, Low)
-### 📋 Task dashboard to manage tasks
-### 🎯 Clean, responsive UI using Tailwind CSS
-### 🌍 Deployed and accessible via custom domain
+#### 🔑 Secure user authentication (JWT)
+#### 📝 Add/edit/delete tasks
+#### 🚦 Assign priority levels (e.g. High, Medium, Low)
+#### 📋 Task dashboard to manage tasks
+#### 🎯 Clean, responsive UI using Tailwind CSS
+#### 🌍 Deployed and accessible via custom domain
 ---
 
 ## 🌐 Deployment
@@ -83,6 +85,6 @@ src/
 ## 📬 Contact
 
 ### Suraj Kumar Pattnayak
-### 📎 :octocat: : @Suraj-kumar-pattnayak
+###  :octocat: (@Suraj-kumar-pattnayak)
 ---
 
