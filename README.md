@@ -66,6 +66,7 @@ npm run dev
 open http://localhost:3000 in your browser.
 ```
 ---
+
 ## 📁 Folder Structure
 
 ```bash
@@ -79,6 +80,7 @@ src/
     └── page.js       # Homepage (task dashboard)
 ```
 ---
+
 ## 🔐 Features
 
 #### 🔑 Secure user authentication (JWT)
@@ -87,16 +89,20 @@ src/
 #### 📋 Task dashboard to manage tasks
 #### 🎯 Clean, responsive UI using Tailwind CSS
 #### 🌍 Deployed and accessible via custom domain
+
 ---
 
 ## 🌐 Deployment
-### This project is live and deployed using Vercel, with a custom domain set.
+#### This project is live and deployed using Vercel, with a custom domain set.
 
 ✅ Visit Live App (https://work-manager-final.vercel.app/)
+
 ---
+
 ## 📬 Contact
 
 ### Suraj Kumar Pattnayak
 ###  :octocat: (@Suraj-kumar-pattnayak)
+
 ---
 
