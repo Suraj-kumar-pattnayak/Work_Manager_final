@@ -13,6 +13,7 @@ A modern and intuitive task manager built with **Next.js**, **MongoDB Atlas**, a
   <img src="https://img.shields.io/badge/bcrypt-003B57?style=for-the-badge&logo=auth0&logoColor=white" />
   <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white" />
   <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
+  <img src="https://img.shields.io/badge/Zod-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
 </p>
 ---
 
