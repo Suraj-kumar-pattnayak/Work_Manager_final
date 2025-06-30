@@ -8,9 +8,7 @@ import { toast } from 'react-toastify';
 import { useRouter } from 'next/navigation';
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
-import { signupSchema } from './Validation';
 // import { addTask } from '@/services/taskService';
-import { z } from "zod";
 
   const Signup = () => {
      const router =  useRouter()
@@ -25,30 +23,16 @@ import { z } from "zod";
       event.preventDefault();
       console.log(user);
 
-    
-    // validate form data by zod
-     try {
-      signupSchema.parse(user);
-     } catch (error) {
-      if (error instanceof z.ZodError)
-      {
-        error.errors.forEach(err => {
-          toast.error(err.message, { position: "top-center" });
-        })
-      }
-      else toast.error("Something went wrong");
-      return;  ///stop further execution if validation fails
-     }
-      // if(user.password == '') {                          //  handling by zod 
-      // toast.error("Please Enter Passwords !", {
-      // position: "top-center"
-      // });  return;}
+      if(user.password == '') {
+      toast.error("Please Enter Passwords !", {
+      position: "top-center"
+      });  return;}
       
 
-      // if (user.password !== user.confirmPassword) {      //  handling by zod 
-      // toast.error("Passwords do not match!", {
-      // position: "top-center"
-      // });  return;}
+      if (user.password !== user.confirmPassword) {
+      toast.error("Passwords do not match!", {
+      position: "top-center"
+      });  return;}
 
       try {           //services
         const result = await signup(user)
